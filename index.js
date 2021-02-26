@@ -92,14 +92,13 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '맹구봇 임포스터 찾아야지') {
-    return message.reply('EMERGENCY');
     return message.reply('저새끼 벤트');
   }  
 
   if(message.author.bot) return;
 
   if(message.content == 'ㅈㅈ') {
-    return message.reply('ㅈㅈ? ㅈㅎㄴ ㅆㅂㅇ ㅁㄱ ㅈㅈ ㄹㄴㄱㅇ');
+    return message.reply('ㅈㅈ? ㅈㄹㅎㄴ ㅆㅂㅇ ㅁㄱ ㅈㅈ ㄹㄴㄱㅇ');
   }  
   
   if(message.author.bot) return;
@@ -107,6 +106,13 @@ client.on('message', (message) => {
   if(message.content == '정정석') {
     return message.reply('미친새끼');
   }  
+
+  if(message.author.bot) return;
+
+  if(message.content == '가자') {
+    return message.reply('호주');
+  }  
+
 
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
